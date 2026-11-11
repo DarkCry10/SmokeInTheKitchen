@@ -1195,3 +1195,12 @@ body.cookbook-body {
     gap: 2px;
   }
 }
+
+.next-archive-link{display:inline-flex;align-items:center;gap:8px;max-width:330px;padding:5px 9px;border:1px solid #a8a29e;border-radius:4px;background:#211d19;color:#f5f1e8;text-decoration:none;transition:all .2s ease}
+.next-archive-link:hover{border-color:var(--c-fire-gold);background:#302921;color:#fff;transform:translateY(-1px)}
+.next-archive-mark{width:30px;height:30px;flex:0 0 30px;object-fit:contain;border-radius:50%;background:#fff;padding:2px}
+.next-archive-copy{display:flex;flex-direction:column;line-height:1.22;min-width:0}
+.next-archive-label{font:.57rem var(--font-typewriter);font-weight:700;letter-spacing:.07em;color:var(--c-fire-gold)}
+.next-archive-title{font:.7rem var(--font-typewriter);font-weight:700}
+.next-archive-description{font:.6rem var(--font-typewriter);color:#d6d3d1}
+@media(max-width:1024px){.header-nav .next-archive-link{width:100%;max-width:none}}
